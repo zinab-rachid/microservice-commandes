@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+  <title>Commandes Web Application</title>
+  <style>
+    body {
+      padding-top: 50px;
+    }
+    .special {
+      padding-top: 50px;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href=".">Système de gestion des commandes</a>
+    </div>
+  </div>
+</nav>
+<div class="container special">
+  <h2 class="h2">Modification des commandes </h2>
+  <h2 th:text="'Ajouter une commande'"></h2>
+  <div>
+    <form method="post">
+      <div class="form-group">
+        <input type="hidden"  class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="description">Description</label>
+        <input type="text"  class="form-control"
+               id="description"
+               placeholder="Saisir la description">
+        <small id="firstNameHelp" class="form-text text-muted">
+          Merci d'écrire la description.
+        </small>
+      </div>
+
+      <div class="form-group">
+        <label for="idProduit">idProduit</label>
+        <input type="number"  class="form-control"
+               id="idProduit"
+               aria-describedby="idProduit" placeholder="Saisir l\'idProduit">
+        <small id="Help" class="form-text text-muted">
+          Merci d'écrire l'idProduit.
+        </small>
+      </div>
+
+      <div class="form-group">
+        <label for="quantité">Quantité</label>
+        <input type="number" class="form-control"
+               id="quantité" aria-describedby="lastNameHelp" placeholder="Saisir la quantité">
+        <small
+                id="lastNameHelp" class="form-text text-muted">Merci d'écrire la quantité.</small>
+      </div>
+
+      <div class="form-group">
+        <label for="date">Date</label>
+        <input type="date"  class="form-control"
+               id="date"
+               aria-describedby="date" placeholder="Saisir la date">
+
+      </div>
+
+
+
+      <div class="form-group">
+        <label for="montant">Montant</label>
+        <input type="number"  class="form-control"
+               id="montant"
+               aria-describedby="Montant" placeholder="Saisir le montant">
+        <small id="mailHelp" class="form-text text-muted">
+          Merci d'écrire le montant.
+        </small>
+      </div>
+
+
+
+      <button type="submit" class="btn btn-primary">
+        <button type="submit" class="btn btn-primary" th:text="'Ajouter'"></button>
+      </button>
+    </form>
+  </div>
+</div>
+<script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+</script>
+<script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"crossorigin="anonymous">
+</script>
+</body>
+</html>

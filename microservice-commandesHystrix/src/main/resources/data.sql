@@ -1,0 +1,37 @@
+
+INSERT INTO PRODUCT (ID , TITRE ,DESCRIPTION ,IMAGE ,PRIX ) VALUES (0, 'Bougie fonctionnant au feu', 'bougie qui fonctionne comme une ampoule mais sans électricité !', 'blob/master/images/Bougie.PNG?raw=true', 22.0);
+
+INSERT INTO PRODUCT (ID , TITRE ,DESCRIPTION ,IMAGE ,PRIX ) VALUES (1, 'Chaise pour s''assoire', 'Chaise rare avec non pas 1 ni 2 mais 3 pieds', 'blob/master/images/Chaise.PNG?raw=true', 95.0);
+
+INSERT INTO PRODUCT (ID , TITRE ,DESCRIPTION ,IMAGE ,PRIX ) VALUES (2, 'Cheval pour nains', 'Ce cheval ne portera certainement pas blanche neige, mais sans problème les nains', 'blob/master/images/Cheval.PNG?raw=true', 360.0);
+
+INSERT INTO PRODUCT (ID , TITRE ,DESCRIPTION ,IMAGE ,PRIX ) VALUES (3, 'Coq of steel, le superman des volailles', 'Ne passe pas au four', 'blob/master/images/coq.PNG?raw=true', 620.0);
+
+INSERT INTO PRODUCT (ID , TITRE ,DESCRIPTION ,IMAGE ,PRIX ) VALUES (4, 'Flacon à frotter avec un génie dedans', 'Vous donne droit à l''équivalent de 3/0 voeux', 'blob/master/images/lampe.PNG?raw=true', 1200.0);
+
+INSERT INTO PRODUCT (ID , TITRE ,DESCRIPTION ,IMAGE ,PRIX ) VALUES (5, 'Horloge quantique', 'Donne l''heure, les minutes et même les secondes. Ne fait pas de café', 'blob/master/images/Horloge.PNG?raw=true', 180.0);
+
+INSERT INTO PRODUCT (ID , TITRE ,DESCRIPTION ,IMAGE ,PRIX ) VALUES (6, 'Table d''opération pour Hamsters', 'Pour réaliser vos opérations chirugicales sur votre Hamster!', 'blob/master/images/table%20d''op%C3%A9ration.PNG?raw=true', 210.0);
+
+INSERT INTO PRODUCT (ID , TITRE ,DESCRIPTION ,IMAGE ,PRIX ) VALUES (7 , 'Vase ayant appartenu a Zeus', 'Risque de choc électrique', 'blob/master/images/Vase.PNG?raw=true',730.0);
+
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (1, 'Commande 1', 5, '2024-01-01', 100.50, 2);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (2, 'Commande 2', 8, '2024-01-02', 150.75, 1);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (3, 'Commande 3', 3, '2024-01-03', 50.25, 3);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (4, 'Commande 4', 10, '2024-01-04', 200.0, 5);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (5, 'Commande 5', 2, '2024-01-05', 30.0, 4);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (6, 'Commande 6', 7, '2024-01-06', 120.0, 1);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (7, 'Commande 7', 4, '2023-07-03', 80.0, 2);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (8, 'Commande 8', 6, '2023-08-18', 110.0, 3);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (9, 'Commande 9', 1, '2024-09-09', 15.0, 5);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (10, 'Commande 10', 9, '2024-10-30', 180.0, 4);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (11, 'Commande 11', 3, '2024-11-11', 55.5, 2);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (12, 'Commande 12', 5, '2023-12-25', 95.75, 1);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (13, 'Commande 13', 8, '2023-01-07', 130.0, 3);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (14, 'Commande 14', 2, '2023-02-14', 35.0, 4);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (15, 'Commande 15', 6, '2023-03-21', 105.25, 5);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (16, 'Commande 16', 4, '2023-04-02', 75.5, 2);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (17, 'Commande 17', 7, '2023-05-15', 125.0, 1);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (18, 'Commande 18', 3, '2023-06-30', 50.0, 3);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (19, 'Commande 19', 10, '2023-07-11', 200.0, 4);
+INSERT INTO COMMANDE (ID, DESCRIPTION, QUANTITE, DATE, MONTANT, PRODUIT) VALUES (20, 'Commande 20', 1, '2023-08-24', 15.0, 5);
